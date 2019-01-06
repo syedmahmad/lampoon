@@ -1,0 +1,30 @@
+{
+	"name": "lampoon",
+	"version": "1.0.0",
+	"description": "react (resux) app with firebase",
+	"main": "index",
+	"repository": "\"\"",
+	"author": "syed",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.5",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"firebase": "^5.7.2",
+		"path": "^0.12.7",
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0",
+		"webpack": "^4.28.3",
+		"webpack-dev-server": "^3.1.14"
+	},
+	"scripts": {
+		"build-webpack": "webpack --watch",
+		"start:dev": "webpack-dev-server"
+	},
+	"devDependencies": {
+		"webpack-cli": "^3.2.0"
+	}
+}
